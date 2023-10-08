@@ -1,5 +1,5 @@
 {
-    "name": "swoole/ide-helper",
+    "name": "pingan001/ide-helper-swoole-pg",
     "type": "library",
     "description": "IDE help files for Swoole.",
     "license": "Apache-2.0",
