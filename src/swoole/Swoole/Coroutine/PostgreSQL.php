@@ -32,9 +32,14 @@ class PostgreSQL
     {
     }
 
+    // swoole 5.0
     public function prepare(string $query): PostgreSQLStatement|false
     {
     }
+    // swoole 4.8
+    // public function prepare(string $name, string $query): PostgreSQLStatement|false
+    // {
+    // }
 
     public function metaData(string $table_name): array|false
     {
